@@ -1,0 +1,6 @@
+RewriteEngine on
+ErrorDocument 404 /404.php
+
+RewriteBase /
+
+RewriteRule ^welcome?$ index.php?nav=welcome [L]
